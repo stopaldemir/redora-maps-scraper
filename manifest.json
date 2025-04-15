@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Redora Maps Scraper",
+  "version": "1.1",
+  "description": "Google Maps üzerindeki işletme verilerini hızlıca topla ve Excel formatında dışa aktar.",
+  "permissions": ["storage", "downloads", "tabs", "scripting"],
+  "host_permissions": ["https://www.google.com/maps/*"],
+  "action": {
+    "default_title": "Redora Maps Scraper",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "image.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/maps/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "image.png"
+  }
+}

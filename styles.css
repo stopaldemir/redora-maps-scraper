@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #00425f;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.count-box {
+  background-color: #e1ecf4;
+  color: #00425f;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#exportXlsx {
+  background-color: #006d9c;
+  color: #fff;
+}
+
+#exportXlsx:hover {
+  background-color: #00547b;
+}
+
+.secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.secondary:hover {
+  background-color: #bbb;
+}
+
+.hardResetData {
+  background-color: #e6e6e6;
+}
+
+.hardResetData:hover {
+  background-color: #cccccc;
+}
